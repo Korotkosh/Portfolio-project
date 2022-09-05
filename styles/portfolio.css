@@ -6,7 +6,7 @@
 .hero {
   display: flex;
   text-align: center;
-  margin-top: 135px;
+  margin-top: 65px;
   background: rgba(252, 251, 251, 1);
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
@@ -15,16 +15,14 @@
 }
 
 .hero-text {
+  width: 100%;
+  height: 265px;
+  top: 65px;
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.5) 0%,
     rgba(0, 0, 0, 0.2) 100%
   );
-  position: absolute;
-  width: 100%;
-  height: 265px;
-  left: 0px;
-  top: 135px;
 }
 .hero h1 {
   padding-top: 46px;
@@ -57,6 +55,36 @@
   padding-bottom: 60px;
 }
 
+.logo {
+  margin-top: 48px;
+  margin-left: 140px;
+}
+.navbar-collapse {
+  display: flex;
+  justify-content: right;
+  margin-top: 48px;
+  margin-right: 140px;
+}
+
+.active {
+  font-family: var(--primary-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #662eed;
+}
+
+.nav-link {
+  font-family: var(--primary-font-family);
+  color: var(--main-font-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 20px;
+}
+
 @media (max-width: 960px) {
   .container {
     margin: 20px 0px;
@@ -73,5 +101,11 @@
   .hero p {
     font-size: 16px;
     line-height: 23px;
+  }
+  .hero {
+    margin-top: 40px;
+  }
+  .logo {
+    margin: 0;
   }
 } ;
