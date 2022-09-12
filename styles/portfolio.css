@@ -148,14 +148,15 @@ h4 {
 }
 
 @media (max-width: 960px) {
-  .container {
-    margin: 20px 0px;
-  }
-  .container p {
-    font-size: 16px;
+  .h4 {
+    font-size: 14px;
     line-height: 23px;
     padding-bottom: 10px;
   }
+  .recipes-list {
+    margin: 20px 0px;
+  }
+
   .hero h1 {
     font-size: 48px;
     margin: 10px;
@@ -176,5 +177,11 @@ h4 {
   .about-hero-image {
     display: flex;
     justify-content: end;
+  }
+  .about-hero {
+    margin: 20px 0px;
+  }
+  .favorite-recipe {
+    margin: 20px 0px;
   }
 } ;
