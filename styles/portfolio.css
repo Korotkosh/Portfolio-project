@@ -44,7 +44,7 @@
   margin: 100px 140px;
 }
 
-.recipes-list p {
+h4 {
   color: var(--main-font-color);
   font-family: var(--primary-font-family);
   font-style: normal;
@@ -52,7 +52,6 @@
   font-size: 28px;
   line-height: 38px;
   padding-top: 20px;
-  padding-bottom: 60px;
 }
 
 .logo {
@@ -133,6 +132,19 @@
 
 .social-logo {
   margin-left: 30px;
+}
+
+.favorite-recipe {
+  margin: 0 140px;
+}
+
+.favorite-recipe h3 {
+  font-family: var(--primary-font-family);
+  color: var(--main-font-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 960px) {
