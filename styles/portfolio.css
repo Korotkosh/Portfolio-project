@@ -40,11 +40,11 @@
   color: white;
 }
 
-.container {
+.recipes-list {
   margin: 100px 140px;
 }
 
-.container p {
+.recipes-list p {
   color: var(--main-font-color);
   font-family: var(--primary-font-family);
   font-style: normal;
@@ -85,6 +85,56 @@
   margin-left: 20px;
 }
 
+.aboutpage-heading h1 {
+  font-family: var(--primary-font-family);
+  font-size: 72px;
+  color: var(--main-font-color);
+  padding-top: 53px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.about-hero {
+  margin: 126px 240px 100px 240px;
+}
+
+.about-hero-image {
+  width: 460px;
+  height: 450px;
+}
+
+.about-hero h2 {
+  font-size: 64;
+  font-weight: 700;
+  font-family: var(--primary-font-family);
+  color: var(--main-font-color);
+  margin-bottom: 36px;
+}
+.about-hero-content {
+  width: 460px;
+  margin-left: 40px;
+  margin-top: 62px;
+}
+
+.main-text {
+  font-family: var(--primary-font-family);
+  color: var(--main-font-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.follow {
+  font-family: var(--primary-font-family);
+  color: var(--main-font-color);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.social-logo {
+  margin-left: 30px;
+}
+
 @media (max-width: 960px) {
   .container {
     margin: 20px 0px;
@@ -107,5 +157,12 @@
   }
   .logo {
     margin: 0;
+  }
+  .about-hero-content {
+    margin-left: 0;
+  }
+  .about-hero-image {
+    display: flex;
+    justify-content: end;
   }
 } ;
