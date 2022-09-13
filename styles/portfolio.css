@@ -270,4 +270,7 @@ h5 {
   .recipe-collection p {
     text-align: center;
   }
+  .contact-content {
+    margin-left: 0;
+  }
 } ;
