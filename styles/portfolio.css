@@ -198,6 +198,28 @@ hr {
   color: #f65282;
 }
 
+h5 {
+  font-family: var(--primary-font-family);
+  color: #662eed;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-text {
+  font-family: var(--primary-font-family);
+  color: var(--main-font-color);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.contact-icon {
+  margin-right: 30px;
+}
+
+.contact-content {
+  margin-left: 40px;
+}
 @media (max-width: 960px) {
   .h4 {
     font-size: 14px;
