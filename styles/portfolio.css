@@ -175,8 +175,8 @@ h1 {
 .header-recipe {
   margin-top: 32px;
 }
+
 hr {
-  display: block;
   size: 1px;
   color: #67d5d2;
   text-align: left;
@@ -189,10 +189,6 @@ hr {
 .ingredients p {
   width: 360px;
   margin-bottom: 0;
-}
-
-.ingredients p .main-text {
-  text-align: bottom;
 }
 
 .step {
@@ -233,10 +229,23 @@ hr {
     display: flex;
     justify-content: end;
   }
-  .about-hero {
+  .center {
     margin: 20px 0px;
   }
-  .favorite-recipe {
-    margin: 20px 0px;
+  .about-hero-image {
+    margin-left: 0;
+  }
+  .recipe {
+    display: flex;
+    flex-direction: column;
+  }
+  .ingredients {
+    text-align: center;
+  }
+  .recipe-collection h3 {
+    text-align: center;
+  }
+  .recipe-collection p {
+    text-align: center;
   }
 } ;
