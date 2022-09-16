@@ -60,35 +60,6 @@ h3 {
   font-size: 36px;
   font-weight: 700;
 }
-.logo {
-  margin-top: 48px;
-  margin-left: 140px;
-}
-.navbar-collapse {
-  display: flex;
-  justify-content: right;
-  margin-top: 48px;
-  margin-right: 140px;
-}
-
-.active {
-  font-family: var(--primary-font-family);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
-  color: #662eed;
-}
-
-.nav-link {
-  font-family: var(--primary-font-family);
-  color: var(--main-font-color);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
-  margin-left: 20px;
-}
 
 h1 {
   font-family: var(--primary-font-family);
@@ -220,6 +191,42 @@ h5 {
 .contact-content {
   margin-left: 40px;
 }
+
+.logo {
+  max-width: 150px;
+}
+
+nav {
+  margin-top: 40px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  font-family: var(--primary-font-family);
+
+  font-size: 16px;
+  font-weight: 700;
+  display: inline;
+  list-style: none;
+  margin-left: 16px;
+  line-height: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--main-font-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #662eed;
+}
+
 @media (max-width: 960px) {
   .h4 {
     font-size: 14px;
@@ -243,6 +250,7 @@ h5 {
   }
   .logo {
     margin: 0;
+    max-height: 40px;
   }
   .about-hero-content {
     margin-left: 0;
@@ -271,6 +279,13 @@ h5 {
     text-align: center;
   }
   .contact-content {
-    margin-left: 0;
+    margin-left: ;
+  }
+  nav a {
+    font-size: 14px;
+  }
+
+  nav li {
+    margin-left: 5px;
   }
 } ;
