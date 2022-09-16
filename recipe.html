@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Recipes Shelley White bloge whith some of collection of recipes"
+    />
     <title>Recipes-recipe-collection</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -29,12 +33,47 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Hompage">
+          <img
+            src="images/logo.png"
+            alt="Shelley White-logo"
+            class="logo d-none d-md-block"
+        /></a>
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo-small.png"
+            alt="Shelley White-logo"
+            class="logo d-block d-md-none"
+        /></a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Shelley White">About</a>
+          </li>
+          <li class="active">
+            <a href="/recipe.html" title="List of recipes">Recipe</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Shelley White contacts">Contoct</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <h1>Recipe Collection</h1>
 
-    <div class="center">
+    <div class="container center mb-5">
       <div class="recipe-collection">
         <div class="row">
-          <img src="images/recipe1.png" class="img-fluid mb-5" />
+          <img
+            src="images/recipe1.png"
+            alt="some dish"
+            class="img-fluid mb-5"
+          />
           <h3>Wet Vegetable Spring Rolls</h3>
         </div>
 
@@ -79,7 +118,11 @@
 
         <div class="row">
           <div class="col d-lg-block">
-            <img src="images/recipe2.png" class="img-fluid mb-5" />
+            <img
+              src="images/recipe2.png"
+              alt="some dish"
+              class="img-fluid mb-5"
+            />
             <h3>Wet Vegetable Spring Rolls</h3>
           </div>
         </div>
@@ -124,7 +167,11 @@
 
         <div class="row">
           <div class="col d-lg-block">
-            <img src="images/recipe3.png" class="img-fluid mb-5" />
+            <img
+              src="images/recipe3.png"
+              alt="some dish"
+              class="img-fluid mb-5"
+            />
             <h3>Wet Vegetable Spring Rolls</h3>
           </div>
         </div>
@@ -166,6 +213,54 @@
             </p>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="footer-background">
+      <div class="container">
+        <footer class="d-flex justify-content-between">
+          <a href="/" title="Homepage">
+            <img
+              src="images/logo.png"
+              alt="Shelley White-logo"
+              class="logo mb-5 mt-5 d-none d-md-block img-fluid"
+          /></a>
+
+          <p>
+            <a
+              href="https://www.facebook.com/Shelley White"
+              target="_blank"
+              title="Facebook Profile"
+              class="social-logo"
+            >
+              <i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/Shelley White"
+              target="_blank"
+              title="Instagram Profile"
+              class="social-logo"
+            >
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/Shelley White"
+              target="_blank"
+              title="Linkedin Profile"
+              class="social-logo"
+            >
+              <i class="fa-brands fa-linkedin"></i
+            ></a>
+          </p>
+          <p class="footer-text">
+            © 2022 Coded by Antonina, and it is
+            <a
+              href="https://github.com/Korotkosh/Portfolio-project"
+              target="_blank"
+              >open-sourced</a
+            >
+          </p>
+        </footer>
       </div>
     </div>
   </body>
